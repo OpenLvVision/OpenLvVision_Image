@@ -4,7 +4,7 @@ OpenLvVision is an open-source library designed for image processing within the 
 It provides fundamental image handling capabilities, including management, file input/output, data Access functions.
 
 System Requirements:
-   *  LabView 2024 or newer (including the Community Edition)
+   *  LabView 2020 or newer (including the Community Edition)
    *  Windows operating system
    *  NI Vision Development Module (license not required)
 
