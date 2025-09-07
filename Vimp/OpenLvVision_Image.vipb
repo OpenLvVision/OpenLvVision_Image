@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-08-16 21:14:38" Creator="lukas" Comments="" ID="111fe804103f11d4c9392ca1b7a58905">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-09-07 17:09:34" Creator="lukas" Comments="" ID="4d3ae139d526e187b71e543b9e0a4bfb">
   <Library_General_Settings>
     <Package_File_Name>OpenLvVision_lib_OpenLvVision_Image</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -37,11 +37,11 @@ Windows operating system
 Vision Development Module (license not required)
 
 Third party copyrights:
-© 2000–2025 National Instruments Corporation. All rights reserved.</Description>
+© 2000 2025 National Instruments Corporation. All rights reserved.</Description>
       <Copyright>©Copyright (c) 2025, Lukas Kamleitner </Copyright>
       <Packager>Lukas Kamleitner</Packager>
       <URL>https://www.openlvvision.org/</URL>
-      <Release_Notes>Downgrade to LV2020</Release_Notes>
+      <Release_Notes>Added: Complex image datatype</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -194,7 +194,7 @@ Third party copyrights:
       <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>true</Edit_VI_Description>
+      <Edit_VI_Description>false</Edit_VI_Description>
       <Text_to_Add>Thirdparty:
 © 2000–2025 National Instruments Corporation. All rights reserved.
 
@@ -264,7 +264,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2387D74D4351D82FD6D2AA03157BA9CE</GUID>
+      <GUID>BE01B6E2782B1DDCBD9C717D9C2EDC1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -467,7 +467,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\Management\WriteBitDepth.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB123EC9FD33AFC534360052CCA3A1A4</GUID>
+      <GUID>956E9F32D574D7A0318100FBECBEE527</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +740,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\DataAccess\ReadPixel\ReadPixel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0966B4F407B2E517A718245CE535EA2B</GUID>
+      <GUID>E475B02A34C37CAD7F6C8521832DCC01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -817,7 +817,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\File\ReadImageFileInfo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5766B6D868B61B050F998CF8A0EC168B</GUID>
+      <GUID>F36D5B8202F3A98D27D96B7D1AC93B52</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

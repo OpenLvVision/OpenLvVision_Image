@@ -30,6 +30,7 @@
 		<Item Name="ArrayColorRgbaU32ToImage.vi" Type="VI" URL="../ArrayToImage/ArrayColorRgbaU32ToImage.vi"/>
 		<Item Name="ArrayColorU64ToImage.vi" Type="VI" URL="../ArrayToImage/ArrayColorU64ToImage.vi"/>
 		<Item Name="ArrayColorRgbaU64ToImage.vi" Type="VI" URL="../ArrayToImage/ArrayColorRgbaU64ToImage.vi"/>
+		<Item Name="ArrayComplexCsgToImage.vi" Type="VI" URL="../ArrayToImage/ArrayComplexCsgToImage.vi"/>
 	</Item>
 	<Item Name="ImageToArray" Type="Folder">
 		<Item Name="ImageToArray.vi" Type="VI" URL="../ImageToArray/ImageToArray.vi"/>
@@ -41,6 +42,7 @@
 		<Item Name="ImageColorRgbaU32ToArray.vi" Type="VI" URL="../ImageToArray/ImageColorRgbaU32ToArray.vi"/>
 		<Item Name="ImageColorU64ToArray.vi" Type="VI" URL="../ImageToArray/ImageColorU64ToArray.vi"/>
 		<Item Name="ImageColorRgbaU64ToArray.vi" Type="VI" URL="../ImageToArray/ImageColorRgbaU64ToArray.vi"/>
+		<Item Name="ImageComplexCsgToArray.vi" Type="VI" URL="../ImageToArray/ImageComplexCsgToArray.vi"/>
 	</Item>
 	<Item Name="RgbaToNumber" Type="Folder">
 		<Item Name="RgbaToNumber.vi" Type="VI" URL="../ColorToNumber/RgbaToNumber.vi"/>
@@ -78,6 +80,8 @@
 		<Item Name="ImageToDvrU32_2D.vi" Type="VI" URL="../Dvr/ImageToDvrU32_2D.vi"/>
 		<Item Name="ImageToDvrU64_1D.vi" Type="VI" URL="../Dvr/ImageToDvrU64_1D.vi"/>
 		<Item Name="ImageToDvrU64_2D.vi" Type="VI" URL="../Dvr/ImageToDvrU64_2D.vi"/>
+		<Item Name="ImageToDvrCSG_1D.vi" Type="VI" URL="../Dvr/ImageToDvrCSG_1D.vi"/>
+		<Item Name="ImageToDvrCSG_2D.vi" Type="VI" URL="../Dvr/ImageToDvrCSG_2D.vi"/>
 	</Item>
 	<Item Name="ReadPixel" Type="Folder">
 		<Item Name="ReadPixel.vi" Type="VI" URL="../ReadPixel/ReadPixel.vi"/>
@@ -89,6 +93,7 @@
 		<Item Name="ReadPixelRgbaU32.vi" Type="VI" URL="../ReadPixel/ReadPixelRgbaU32.vi"/>
 		<Item Name="ReadPixelU64.vi" Type="VI" URL="../ReadPixel/ReadPixelU64.vi"/>
 		<Item Name="ReadPixelRgbaU64.vi" Type="VI" URL="../ReadPixel/ReadPixelRgbaU64.vi"/>
+		<Item Name="ReadPixelComplexCsg.vi" Type="VI" URL="../ReadPixel/ReadPixelComplexCsg.vi"/>
 	</Item>
 	<Item Name="WritePixel" Type="Folder">
 		<Item Name="WritePixel.vi" Type="VI" URL="../WritePixel/WritePixel.vi"/>
@@ -100,6 +105,7 @@
 		<Item Name="WritePixelRgbaU32.vi" Type="VI" URL="../WritePixel/WritePixelRgbaU32.vi"/>
 		<Item Name="WritePixelU64.vi" Type="VI" URL="../WritePixel/WritePixelU64.vi"/>
 		<Item Name="WritePixelRgbaU64.vi" Type="VI" URL="../WritePixel/WritePixelRgbaU64.vi"/>
+		<Item Name="WritePixelCsg.vi" Type="VI" URL="../WritePixel/WritePixelCsg.vi"/>
 	</Item>
 	<Item Name="ReadColumn" Type="Folder">
 		<Item Name="ReadColumn.vi" Type="VI" URL="../ReadColumn/ReadColumn.vi"/>
@@ -111,6 +117,7 @@
 		<Item Name="ReadColumnRgbaU32.vi" Type="VI" URL="../ReadColumn/ReadColumnRgbaU32.vi"/>
 		<Item Name="ReadColumnU64.vi" Type="VI" URL="../ReadColumn/ReadColumnU64.vi"/>
 		<Item Name="ReadColumnRgbaU64.vi" Type="VI" URL="../ReadColumn/ReadColumnRgbaU64.vi"/>
+		<Item Name="ReadColumnCsg.vi" Type="VI" URL="../ReadColumn/ReadColumnCsg.vi"/>
 	</Item>
 	<Item Name="WriteColumn" Type="Folder">
 		<Item Name="WriteColumn.vi" Type="VI" URL="../WriteColumn/WriteColumn.vi"/>
@@ -122,6 +129,7 @@
 		<Item Name="WriteColumnRgbaU32.vi" Type="VI" URL="../WriteColumn/WriteColumnRgbaU32.vi"/>
 		<Item Name="WriteColumnU64.vi" Type="VI" URL="../WriteColumn/WriteColumnU64.vi"/>
 		<Item Name="WriteColumnRgbaU64.vi" Type="VI" URL="../WriteColumn/WriteColumnRgbaU64.vi"/>
+		<Item Name="WriteColumnCsg.vi" Type="VI" URL="../WriteColumn/WriteColumnCsg.vi"/>
 	</Item>
 	<Item Name="ReadRow" Type="Folder">
 		<Item Name="ReadRow.vi" Type="VI" URL="../ReadRow/ReadRow.vi"/>
@@ -133,6 +141,7 @@
 		<Item Name="ReadRowRgbaU32.vi" Type="VI" URL="../ReadRow/ReadRowRgbaU32.vi"/>
 		<Item Name="ReadRowU64.vi" Type="VI" URL="../ReadRow/ReadRowU64.vi"/>
 		<Item Name="ReadRowRgbaU64.vi" Type="VI" URL="../ReadRow/ReadRowRgbaU64.vi"/>
+		<Item Name="ReadRowCsg.vi" Type="VI" URL="../ReadRow/ReadRowCsg.vi"/>
 	</Item>
 	<Item Name="WriteRow" Type="Folder">
 		<Item Name="WriteRow.vi" Type="VI" URL="../WriteRow/WriteRow.vi"/>
@@ -144,6 +153,7 @@
 		<Item Name="WriteRowRgbaU32.vi" Type="VI" URL="../WriteRow/WriteRowRgbaU32.vi"/>
 		<Item Name="WriteRowU64.vi" Type="VI" URL="../WriteRow/WriteRowU64.vi"/>
 		<Item Name="WriteRowRgbaU64.vi" Type="VI" URL="../WriteRow/WriteRowRgbaU64.vi"/>
+		<Item Name="WriteRowCsg.vi" Type="VI" URL="../WriteRow/WriteRowCsg.vi"/>
 	</Item>
 	<Item Name="Flatten" Type="Folder">
 		<Item Name="FlattenImageToString.vi" Type="VI" URL="../Flatten/FlattenImageToString.vi"/>
