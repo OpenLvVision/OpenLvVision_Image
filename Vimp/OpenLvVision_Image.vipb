@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-09-16 20:41:24" Creator="lukas" Comments="" ID="edc65f8d047cf3fa9275d7d731e0ac93">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-10-11 15:48:39" Creator="lukas" Comments="" ID="a6da56603b9195c07541e5ed74242860">
   <Library_General_Settings>
     <Package_File_Name>OpenLvVision_lib_OpenLvVision_Image</Package_File_Name>
-    <Library_Version>1.2.1.3</Library_Version>
+    <Library_Version>1.2.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -41,7 +41,7 @@ Third party copyrights:
       <Copyright>©Copyright (c) 2025, Lukas Kamleitner </Copyright>
       <Packager>Lukas Kamleitner</Packager>
       <URL>https://www.openlvvision.org/</URL>
-      <Release_Notes>Fix: Image Type Enum</Release_Notes>
+      <Release_Notes>Fix: Polymorphic vi ArrayToImageMonoU8</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -264,7 +264,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41BBD059C3866121DD28E3579E8A9806</GUID>
+      <GUID>F743A91BF758BA1CA81798C58A560871</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -467,7 +467,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\Management\WriteBitDepth.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94D69709DC06FBABD92FA11FD8DF532A</GUID>
+      <GUID>93EAADC9C255F3C99EDA5ED0217373A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +740,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\DataAccess\ReadPixel\ReadPixel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B37E4D22253B4943DC1B0B258BEE4E6</GUID>
+      <GUID>6726E0C4AD73581858187A0AFCFFC8DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -817,7 +817,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\File\ReadImageFileInfo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DADCB92D39652226F6123ED677957317</GUID>
+      <GUID>27F98B0434535680C5C92FA8B0AC98FD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
