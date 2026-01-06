@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-10-11 15:48:39" Creator="lukas" Comments="" ID="a6da56603b9195c07541e5ed74242860">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2026-01-06 13:16:44" Creator="lukas" Comments="" ID="6933d676e523b077b2445640b22b1a8c">
   <Library_General_Settings>
     <Package_File_Name>OpenLvVision_lib_OpenLvVision_Image</Package_File_Name>
-    <Library_Version>1.2.1.4</Library_Version>
+    <Library_Version>1.2.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -28,20 +28,59 @@
     <VI_Package_Configuration_File>OpenLvVision_Image.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Open source LabVIEW toolkit for image processing applications. </One_Line_Description_Summary>
-      <Description>OpenLvVision is an open-source library designed for image processing within the LabView environment. It provides fundamental image handling capabilities, including management, file input/output, data access.
+      <Description>&lt;size=18&gt;&lt;b&gt;OpenLvVision&lt;/b&gt;&lt;/size&gt;
 
-System Requirements:
+&lt;b&gt;OpenLvVision&lt;/b&gt; is an open-source library designed for image processing within the LabVIEW environment. It bridges the gap between high-level Vision steps and low-level memory management, offering granular control over image data.
 
-LabView 2020 or newer (including the Community Edition)
-Windows operating system
-Vision Development Module (license not required)
+See full documentation at: &lt;color=blue&gt;&lt;b&gt;openlvvision.org/docs/image/&lt;/b&gt;&lt;/color&gt;
 
-Third party copyrights:
-© 2000 2025 National Instruments Corporation. All rights reserved.</Description>
-      <Copyright>©Copyright (c) 2025, Lukas Kamleitner </Copyright>
+&lt;size=14&gt;&lt;b&gt;Data Access&lt;/b&gt;&lt;/size&gt;
+Rapidly convert between LabVIEW Arrays and Vision Images, or manipulate pixels directly.
+
+• &lt;b&gt;Array Conversions:&lt;/b&gt; Rapidly convert between LabVIEW Arrays (1D/2D/3D) and Vision Images.
+   &lt;i&gt;Supported Types:&lt;/i&gt; U8, U16, I16, U32, U64, SGL, Complex (CSG), and RGB (U32/U64).
+   &lt;i&gt;Functions:&lt;/i&gt; Image To Array, Array To Image.
+• &lt;b&gt;Direct Pixel Manipulation:&lt;/b&gt; Read and write specific pixels, rows, or columns without extracting the entire image.
+   &lt;i&gt;Functions:&lt;/i&gt; Read/Write Pixel, Read/Write Row, Read/Write Column.
+• &lt;b&gt;Zero-Copy Access (DVR):&lt;/b&gt; Utilize &lt;b&gt;Data Value References&lt;/b&gt; to manipulate image data in-place for maximum speed.
+   &lt;i&gt;Functions:&lt;/i&gt; Image To DVR.
+• &lt;b&gt;Utilities:&lt;/b&gt;
+   Flatten Image To String (with compression options).
+   Number To Color / Color To Number (Convert between integer and RGBA structures).
+
+&lt;size=14&gt;&lt;b&gt;File Input/Output&lt;/b&gt;&lt;/size&gt;
+Robust tools for handling standard image files and web-ready data formats.
+
+• &lt;b&gt;Standard Formats:&lt;/b&gt; Read and write common formats including &lt;b&gt;BMP&lt;/b&gt;, &lt;b&gt;JPEG&lt;/b&gt;, &lt;b&gt;PNG&lt;/b&gt;, &lt;b&gt;TIFF&lt;/b&gt;, and &lt;b&gt;JPEG2000&lt;/b&gt;.
+   &lt;i&gt;Functions:&lt;/i&gt; Read Image File, Write Image File (Polymorphic).
+• &lt;b&gt;Web Integration:&lt;/b&gt; Easily convert images for web applications or APIs.
+   &lt;i&gt;Functions:&lt;/i&gt; String To Base64, Get File String (Retrieve raw file bytes without saving to disk).
+
+&lt;size=14&gt;&lt;b&gt;Management &amp; Utilities&lt;/b&gt;&lt;/size&gt;
+Essential tools for managing the lifecycle and metadata of your images.
+
+• &lt;b&gt;Lifecycle Control:&lt;/b&gt; Safely manage image memory.
+   &lt;i&gt;Functions:&lt;/i&gt; Create, Dispose, Copy, Cast (Convert Image Types).
+• &lt;b&gt;Metadata &amp; Info:&lt;/b&gt; Access and modify hidden image properties.
+   &lt;i&gt;Functions:&lt;/i&gt; Read/Write Image Size, Read/Write Bit Depth, Read Image Info.
+• &lt;b&gt;Custom Data:&lt;/b&gt; Attach custom key-value pairs directly to an image reference.
+   &lt;i&gt;Functions:&lt;/i&gt; Read/Write Custom Data, Remove Custom Data, Read All Custom Keys.
+
+&lt;size=14&gt;&lt;b&gt;System Requirements&lt;/b&gt;&lt;/size&gt;
+• LabVIEW 2020 or newer (Community Edition supported).
+• Windows operating system.
+• NI Vision Development/Runtime Module (No License required).
+
+&lt;size=14&gt;&lt;b&gt;License&lt;/b&gt;&lt;/size&gt;
+OpenLvVision is open-source software BSD-3.
+
+&lt;b&gt;Third Party Copyrights:&lt;/b&gt;
+• © 2000–2025 National Instruments Corporation. All rights reserved.
+• Third-party copyrights are property of their respective owners.</Description>
+      <Copyright>©Copyright (c) 2026, Lukas Kamleitner </Copyright>
       <Packager>Lukas Kamleitner</Packager>
       <URL>https://www.openlvvision.org/</URL>
-      <Release_Notes>Fix: Polymorphic vi ArrayToImageMonoU8</Release_Notes>
+      <Release_Notes>Prepeare for OpenCV</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -264,7 +303,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F743A91BF758BA1CA81798C58A560871</GUID>
+      <GUID>A9CEFE8F0C57FB6646EE25571B597A47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -467,7 +506,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\Management\WriteBitDepth.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93EAADC9C255F3C99EDA5ED0217373A3</GUID>
+      <GUID>8FF9FB016686D9987EFF56AF141202F2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -740,7 +779,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\DataAccess\ReadPixel\ReadPixel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6726E0C4AD73581858187A0AFCFFC8DC</GUID>
+      <GUID>8D88662CACCCAB36FF1499AB2F27293E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -817,7 +856,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\File\ReadImageFileInfo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27F98B0434535680C5C92FA8B0AC98FD</GUID>
+      <GUID>62065DDB4FE69056C8130DFBCA6F3F3F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
