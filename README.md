@@ -1,6 +1,6 @@
 # OpenLvVision [![Installs](https://www.vipm.io/package/openlvvision_lib_openlvvision_image/badge.svg?metric=installs)](https://www.vipm.io/package/openlvvision_lib_openlvvision_image/) [![Stars](https://www.vipm.io/package/openlvvision_lib_openlvvision_image/badge.svg?metric=stars)](https://www.vipm.io/package/openlvvision_lib_openlvvision_image/)
 
-![OpenLvVision Header](Misc/header.png)
+![OpenLvVision Header](Misc/Header.png)
 
 **OpenLvVision** is an open-source library designed for image processing within the LabVIEW environment. It bridges the gap between high-level Vision steps and low-level memory management, offering granular control over image data.
 
