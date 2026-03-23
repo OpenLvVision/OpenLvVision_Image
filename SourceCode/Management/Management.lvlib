@@ -13,6 +13,7 @@
 	<Item Name="TypeDef" Type="Folder">
 		<Item Name="Image.ctl" Type="VI" URL="../TypeDef/Image.ctl"/>
 		<Item Name="ImageType.ctl" Type="VI" URL="../TypeDef/ImageType.ctl"/>
+		<Item Name="CastMethode.ctl" Type="VI" URL="../TypeDef/CastMethode.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

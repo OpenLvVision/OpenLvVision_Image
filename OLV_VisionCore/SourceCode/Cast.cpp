@@ -1682,16 +1682,16 @@ void Cast_Shift_Color_U32toU8(const uint8_t *srcBase, uint8_t *dstBase,
       // BITWISE SHIFT: Shift 16-bit averaged values right
       __m256i v_shifted = _mm256_srli_epi16(v_avg, shifts);
 
-      // PACK SATURATE: Pack 16-bit to 8-bit with saturation
-      __m256i v_packed = _mm256_packus_epi16(v_shifted, _mm256_setzero_si256());
+      // EXTRACT MEMORY BANKS: Combine 4 values from each lane
+      __m128i lo = _mm256_castsi256_si128(v_shifted);
+      __m128i hi = _mm256_extracti128_si256(v_shifted, 1);
+      __m128i v_combined = _mm_unpacklo_epi64(lo, hi);
 
-      // FIX LANE ORDER: Correct lane-wise pack ordering with permute
-      __m256i v_perm =
-          _mm256_permute4x64_epi64(v_packed, _MM_SHUFFLE(3, 1, 2, 0));
+      // PACK SATURATE: Pack 16-bit to 8-bit with saturation
+      __m128i v_packed = _mm_packus_epi16(v_combined, _mm_setzero_si128());
 
       // STORE RESULT: Store 8 bytes to memory
-      _mm_storel_epi64(reinterpret_cast<__m128i *>(dstRow + x),
-                       _mm256_castsi256_si128(v_perm));
+      _mm_storel_epi64(reinterpret_cast<__m128i *>(dstRow + x), v_packed);
     }
 
     // Cleanup remaining

@@ -48,7 +48,7 @@ Essential tools for managing the lifecycle and metadata of your images.
 ## System Requirements
 * **LabVIEW**: 2020 or newer (Community Edition supported).
 * **OS**: Windows operating system.
-* **Dependencies**: NI Vision Development/Runtime Module (No License required).
+* **Dependencies**: NI Vision Common Resources (No License required).
 
 ## Installation
 Install the **OpenLvVision_Image** package directly via [VI Package Manager (VIPM)](https://www.vipm.io/package/openlvvision_lib_openlvvision_image/).
