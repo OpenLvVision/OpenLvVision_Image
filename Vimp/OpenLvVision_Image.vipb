@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2026-03-23 19:36:44" Creator="lukas" Comments="" ID="01851a7075a28cf8b025e220a07b4c8c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2026-04-03 21:56:07" Creator="lukas" Comments="" ID="c2cf2af89fb52cd8b91ab95792a641ad">
   <Library_General_Settings>
     <Package_File_Name>OpenLvVision_lib_OpenLvVision_Image</Package_File_Name>
-    <Library_Version>1.3.1.2</Library_Version>
+    <Library_Version>1.3.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -81,8 +81,7 @@ OpenLvVision is open-source software BSD-3.
       <Packager>Lukas Kamleitner</Packager>
       <URL>https://www.openlvvision.org/</URL>
       <Release_Notes>BugFix:
--Cast ColorU32 to MonoU8 3 Byte Offset
--Complex Bitdepth now gets ignored</Release_Notes>
+-Crash workarround, IMAQ  access violation on empty dst image</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -315,7 +314,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5142005F15A3EB235BB9D4CE2A4D6B25</GUID>
+      <GUID>BA9C20AB27680B510AF88BEAE5BDB02B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -518,7 +517,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\Management\WriteBitDepth.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18DBC781A7AA76FC969F3E089A377B33</GUID>
+      <GUID>058E8E581FBACE399A75089FF227325D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -791,7 +790,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\DataAccess\ReadPixel\ReadPixel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F00B5ECCE668443961F57C92226E58CF</GUID>
+      <GUID>A758A32EBC7CD7795525CA28C256667F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -868,7 +867,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\File\ReadImageFileInfo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>986253E0D7DEC7BB226509CB8E34C7C2</GUID>
+      <GUID>630D14CDE6B5708182F75DD14AD2BC99</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
